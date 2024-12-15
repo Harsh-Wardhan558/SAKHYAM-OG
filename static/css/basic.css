@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    width:100vw;
+    justify-content: space-between; /* Adjust for better spacing */
+    align-items: top;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: url('../images/sakhyam image.jpg') no-repeat center center/cover;
+}
+.navbar{
+    width:100%;
+    display: flex;
+    padding-top:2% ;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+}
+
+.logo img {
+    height: 80px; /* Reduced size for better responsiveness */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    border-radius: 15px;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px; /* Reduced margin for better spacing */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px; /* Adjusted for better scaling */
+    transition: color 0.3s;
+    padding: 5px 15px;
+    display: inline-block;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(163, 109, 163) 0%, rgb(106, 201, 193) 100%);
+    border-radius: 10px; /* Rounded corners for better appearance */
+}
+
+nav ul li a:hover {
+    color: rgba(194, 22, 22, 0.582);
+}
+
+/* .background {
+    width: 100%;
+    height: 100vh;
+   
+    z-index: -1;
+} */
+
+main {
+    padding: 0; /* Ensure there's no padding */
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: gold;
+    font-size: 1.0em;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.custom-font {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+}
+
+.word1, .word2, .word3, .word4 {
+    font-size: 1.5em;
+}
+
+.justified-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.radiant-background {
+    background: url('https://github.com/SakhyamGcek/Photos/blob/main/Gradient.jpg?raw=true') no-repeat center center/cover;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: black;
+    background-size: cover;
+    
+}
+
+.underline {
+    width: 40%;
+    height: 8px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(168,50,50,1) 100%);
+    margin: 20px auto;
+}
+
+.centered-text {
+    text-align: center;
+    line-height: 1.6em;
+    margin: 20px;
+    font-size: 1.4em;
+}
+
+.custom-font2 {
+    font-family: "Berkshire Swash", serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+.text_center{
+    text-align: center;
+}
+
+.custom-font3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8em;
+    margin: 10px;
+    text-align: center;
+}
+
+.bold{
+    font-size: 2em;
+}
+
+.sanskrit-text {
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+#about, #vision, #mission, #quote {
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    align-items: flex-start;
+}
+
+.founder-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows multiple lines of founders if needed */
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.founder {
+    text-align: center;
+    margin: 20px;
+}
+
+.founder-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.founder-img:hover {
+    transform: scale(1.1);
+}
+
+.founder-name {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.founder-underline, .vision-underline, .mission-underline {
+    width: 10%;
+    height: 8px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(168,50,50,1) 100%);
+    margin: 10px auto;
+}
+
+.sakhyam-text, .change-text {
+    font-size: 4em;
+    text-align: center;
+    font-family: "Macondo", cursive;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.new-logo {
+    height: 4em;
+    margin: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo img {
+        height: 60px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .word1, .word2, .word3, .word4 {
+        font-size: 1.2em;
+    }
+
+    .custom-font3 {
+        font-size: 1.4em;
+    }
+
+    .centered-text, .custom-font2, .custom-font3 {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+
+    .sanskrit-text, .sakhyam-text, .change-text {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .founder {
+        margin: 10px;
+    }
+
+    .founder-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .founder-name {
+        font-size: 1em;
+    }
+    .navbar{
+        align-items: baseline;
+    }
+}

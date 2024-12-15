@@ -82,7 +82,7 @@ CSRF_TRUSTED_ORIGINS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse('postgresql://postgres:wLRKItZFAJcbsLFcNatuaMtkwhLOvaRC@junction.proxy.rlwy.net:53809/railway')
+    'default': dj_database_url.parse('postgresql://postgres:QeLsaVvKIHsvHeRAkuBvaAVmIdSMlGcC@autorack.proxy.rlwy.net:55496/railway')
 }
 
 

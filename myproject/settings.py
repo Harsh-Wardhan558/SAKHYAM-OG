@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f)!0$^2)7t*x)c5%d2%n+s9zpojagxfcx@$%%*kx&^j4!0dxf%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sakhyam-og-production.up.railway.app','localhost']
+ALLOWED_HOSTS = ['sakhyam-og-production.up.railway.app','localhost','127.0.0.1']
 
 # Application definition
 
@@ -82,7 +82,7 @@ CSRF_TRUSTED_ORIGINS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse('postgresql://postgres:jYnlzUgfgKgiVUuWSGZOXYTlgvyXeVSa@autorack.proxy.rlwy.net:39537/railway')
+    'default': dj_database_url.parse('postgresql://sakhyam_user:OtoCk4T5jDVB1u6OAMtDu7PXSHa9TcRG@dpg-ctfb6qtds78s73dobf80-a.oregon-postgres.render.com/sakhyam')
 }
 
 
